@@ -1,7 +1,7 @@
 [
 {
-    "name": "Flipkart MERN",
-    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
+    "name": "Redux Admin Panel in MERN Stack",
+    "desc": "Full-Stack Redux  Admin Dashboard.",
     "image": "flipkartmern",
     "category": "mern",
     "links": {
