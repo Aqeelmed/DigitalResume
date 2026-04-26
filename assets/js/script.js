@@ -38,20 +38,20 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+   // $("#contact-form").submit(function (event) {
+     //   emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
+       // emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+           // .then(function (response) {
+             //   console.log('SUCCESS!', response.status, response.text);
+               // document.getElementById("contact-form").reset();
+               // alert("Form Submitted Successfully");
+            //}, function (error) {
+              //  console.log('FAILED...', error);
+               // alert("Form Submission Failed! Try Again");
+            //});
+       // event.preventDefault();
+   // });
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Frontend Development", "Backend Development", "Web Designing", "Shopify Development" , "WordPress Development", "Mern Stack Development", "Speed Optimization"],
+    strings: ["Web Designing", "Shopify Development" , "WordPress Development", "Mern Stack Development", "Speed Optimization"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
