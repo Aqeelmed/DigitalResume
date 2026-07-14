@@ -14,7 +14,7 @@
     "name": "Online Fishing Store",
     "desc": "Online Fishing Store with stripe payment gateways",
     "image": "project.png",
-    "category": "mern",
+    "category": "laravel",
     "links": {
       "view": "#",
       "code": "https://github.com/Aqeelmed/Online-Fishing-Store"
